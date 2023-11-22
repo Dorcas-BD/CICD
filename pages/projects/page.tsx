@@ -24,7 +24,7 @@ const projects: Project[] = [
       "A movie website showcasing a search option and user sign-in functionality. The platform presents a curated collection of featured movies, providing details such as release dates, IMDb ratings, and genres sourced from theMoviedb API. Users have the option to view trailers and delve into a broader range of movies for an enhanced cinematic experience.",
     link: "https://movie-box-tymr.vercel.app/",
     imgSrc: "/work6.PNG",
-    technologies: "Nextjs, CSS, TMDb API, Youtube API",
+    technologies: "NextJS, CSS, TMDb API, Youtube API",
   },
   {
     title: "Task Manager",
@@ -32,7 +32,7 @@ const projects: Project[] = [
       "A task management website allows users to securely manage tasks by logging in with their Google accounts. Users can add, edit, and delete multiple tasks, streamlining task organization and productivity within the platform.",
     link: "https://task-manager-three-amber.vercel.app/",
     imgSrc: "/taskmanage.jpg",
-    technologies: "Nextjs, CSS, Tailwind, Firebase",
+    technologies: "NextJS, CSS, Tailwind, Firebase",
   },
   {
     title: "Farm Logistics",
