@@ -90,7 +90,12 @@ const Projects = () => {
               <p className="technologies">
                 Technologies: {project.technologies}
               </p>
-              <a target="_blank" href={project.link} className="work-link">
+              <a
+                target="_blank"
+                href={project.link}
+                className="work-link"
+                data-testid={`project-link-${index}`}
+              >
                 View Project
               </a>
             </div>

@@ -49,18 +49,24 @@ const NavBar = () => {
         </ul>
       </div>
       {navbar && (
-        <div className="nav-mobile">
+        <div className="nav-mobile" data-testid="mobile-nav-menu">
           <ul className="nav-menu">
-            <li onClick={handleMobileNavClick}>
+            <li onClick={handleMobileNavClick} data-testid="mobile-home-link">
               <Link href="#home">Home</Link>
             </li>
-            <li onClick={handleMobileNavClick}>
+            <li onClick={handleMobileNavClick} data-testid="mobile-about-link">
               <Link href="#about">About</Link>
             </li>
-            <li onClick={handleMobileNavClick}>
+            <li
+              onClick={handleMobileNavClick}
+              data-testid="mobile-projects-link"
+            >
               <Link href="#projects">Projects</Link>
             </li>
-            <li onClick={handleMobileNavClick}>
+            <li
+              onClick={handleMobileNavClick}
+              data-testid="mobile-contacts-link"
+            >
               <Link href="#contact">Contacts</Link>
             </li>
           </ul>
